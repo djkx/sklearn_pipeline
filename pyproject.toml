@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "djkx", email = "k.tamoliunas@gmail.com" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "dash>=4.4.1",
     "matplotlib>=3.11.1",
