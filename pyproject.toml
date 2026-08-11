@@ -7,8 +7,24 @@ authors = [
     { name = "djkx", email = "k.tamoliunas@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "dash>=4.4.1",
+    "matplotlib>=3.11.1",
+    "mlflow>=3.15.1",
+    "numpy>=2.4.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+]
 
 [build-system]
 requires = ["uv_build>=0.10.4,<0.11.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "pylint>=4.0.7",
+    "pytest-cov>=7.1.0",
+]
